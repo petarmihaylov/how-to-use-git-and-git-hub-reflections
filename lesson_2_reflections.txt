@@ -1,0 +1,24 @@
+Q1: What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized, Git creates some metadata for the repository
+and stores that data in a hidded .git folder withing the main folder of the
+repository. In essense, it prepares the directory tree and setting everything up
+to track changes. The reason why we initialize the repository is so that we can
+tell git that this is supposed to be a repository and Git needs to track changes
+as opposed to it being a regular directlry.
+
+Q2: How is the staging area different than from the working directory and the
+repository? What value do you think it offers?h
+
+The staging area is an intermediatry between the working directory and the
+repository. The staging area keeps track of all the files that are being added
+to the repository and also tracks any changes to the repository for filed that
+are already being tacked. 
+
+The staging area gives us the advantage of keeping files in the repository that
+we want to track and keep the files we don't need to track together. This might 
+be useful when we have external resources for files that we need for our
+project to work, but we don't necessariry have control over their contant.
+Additonally, we might have some "lorem ipsum" type data that we just use for
+testing of our software, but that it is complletely random and does not need to
+be tracked.
