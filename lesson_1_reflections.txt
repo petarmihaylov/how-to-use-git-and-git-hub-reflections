@@ -1,0 +1,81 @@
+Q1: How did viewing a diff between two versions of a file help you see the bug 
+that was introduced?
+
+It was much easier to spot where the problem was when presented with a short,
+manageable section of code. Having a concrete example like this showed me just
+how invaluable version control can be.
+
+Q2: How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+There are many applicatoins to keeping history of files. You can view an old
+version of a file and see what you have tried in the past. For example, if you
+are trying to refacto a section of code, sometimes I find myself trying many
+different ways of getting things to work - especially when I am experimenting
+with a new language. Being able to look back at what I already tried can save
+me a tremendous amount of time by making sure I don't try the same solutions
+that I found that did not work in the past.
+
+Q3: What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google docs does?
+
+Pros:
+* You can clearly separate logical changes
+* Different version will make sense, because they will be complete and logically
+plausable
+* You can decide what is "too big" and "too small" for a change
+* You have more control over the history length and the number of versions 
+
+Cons:
+* Prone to human error - might forget to save and lose work
+* Other collaborators might disagree about the size of your commits and that
+might create friction within the teamt
+
+Q4: Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+When writing software, there may be many different files that comprise one
+feature. As we saw in the example, we can have a button that has components
+in the JS file, in the HTML file, and the CSS file. It wouldn't be very useful
+if we had to dig through the different versions of each file to find when
+approximate time when each file was updated, so we can make sure the changes
+pertain to the same feature change.
+
+On the other hand the assumption for Google Docs is that files wound not
+necessarily be related to each other. One file might contain information
+about the room sizes of your appartment, while the other might have you
+shopping list. On has nothing to do with the other, so if you did some
+remodeling and updated your room-size file, that would not cause any changes
+in your shopping list file. Similarly, if you decided that you wanted to get
+a thermus, you would update your shopping list file, but it would not change
+your room sizes.
+
+Q5: How can you use the commands git log and git diff to view the history of
+files?
+
+The git log command shows a history of all the commits in the repository. The
+git diff commands can be used to show the difference (what was changed) between
+two different commits. The commits can be consecutibe, but they don't have to.
+While the commits you are comparing don't have to be consecutive, the further
+apart those commits are, the more changed are likely to be present and the
+harder it would be to read the output of the git diff command.
+
+Q6: How might using version control make you more confident to make changes
+that could break something?
+
+Using version control and knowing that you can alway go back to a previous
+working version gives you the ability to freely experiment with different
+solutions without being scared that you will break something. True, you might
+break someithing, but it wouldn't be a big deal, since you can always go back
+to the altest working commit. This can make you a more creative and effective
+programmer, because you don't have to worry about making things worse than they
+already are.
+
+Q7: Now that you have your workspace set up, what do you want to try using Git
+for?
+
+The possibilies are endless from here on out. I will probably try to use it for
+tracking versions of Bible studies that I write. It would be kind of cool to
+see how my teachings have evolved over time.
