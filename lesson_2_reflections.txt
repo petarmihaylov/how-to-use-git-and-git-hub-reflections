@@ -22,3 +22,13 @@ project to work, but we don't necessariry have control over their contant.
 Additonally, we might have some "lorem ipsum" type data that we just use for
 testing of our software, but that it is complletely random and does not need to
 be tracked.
+
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area holds the state of the files before comitting. It starts out
+by having the same content of the files as they had it when they were first
+checked out from a commit. Once a change has been added to the staging area,
+we can compare the staging area with git diff --staged and the most recent
+commit to make sure there is only one logical change staged. We also need to
+run git status to make sure we don't have any other changed pending or to see
+if these other changed should be a part of the cimmit.
