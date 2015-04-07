@@ -50,4 +50,8 @@ project.
 
 Q5: How do the diagrams help you visualize the branch structure?
 
-The dia
+The diagrams help us see how each project has grown and came to be. It gives us
+an accurate picture and a path that we can trace to the very origin of the
+project. It also helps us see commits that would be unreachable. Git does a very
+good job in letting us know when we are working with an unreachable commit and 
+reminding us to create a new branch.
