@@ -23,7 +23,8 @@ Additonally, we might have some "lorem ipsum" type data that we just use for
 testing of our software, but that it is complletely random and does not need to
 be tracked.
 
-Q3: How can you use the staging area to make sure you have one commit per logical change?
+Q3: How can you use the staging area to make sure you have one commit per
+logical change?
 
 The staging area holds the state of the files before comitting. It starts out
 by having the same content of the files as they had it when they were first
@@ -46,3 +47,7 @@ separate. Branching gives us a safe and organized way to keep logical blocks
 togeter. We have not seen it yet, but later we cam merge these branches with
 the "trunk" or "master" branch and incorporate the changes into our main
 project.
+
+Q5: How do the diagrams help you visualize the branch structure?
+
+The dia
