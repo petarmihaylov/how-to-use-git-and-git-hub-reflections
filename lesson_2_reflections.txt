@@ -32,3 +32,17 @@ we can compare the staging area with git diff --staged and the most recent
 commit to make sure there is only one logical change staged. We also need to
 run git status to make sure we don't have any other changed pending or to see
 if these other changed should be a part of the cimmit.
+
+Q4: What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches are a great way to experiment with new features and improvements
+while still keeping the core project intact. This lets you work on 
+experimental features while still being able to respond to bug reports and
+minor corrections needed to your code. Because branching is so "cheap" we
+can have a separate branch for each experimental change/feature. This can 
+also help if we are designing different interfaces and want to keep those 
+separate. Branching gives us a safe and organized way to keep logical blocks
+togeter. We have not seen it yet, but later we cam merge these branches with
+the "trunk" or "master" branch and incorporate the changes into our main
+project.
