@@ -55,3 +55,12 @@ an accurate picture and a path that we can trace to the very origin of the
 project. It also helps us see commits that would be unreachable. Git does a very
 good job in letting us know when we are working with an unreachable commit and 
 reminding us to create a new branch.
+
+Q6: What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+Merging two branches together combines the commits for each branch together. 
+This helps us see the history of commits in each branch showing us an accurate
+picture of how the code became to be. The reason why we represent the merged 
+branch the way we do is so that it would be clear which branches are accessible
+from the newly created master branch.
