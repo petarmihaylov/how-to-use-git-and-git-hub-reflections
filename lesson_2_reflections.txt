@@ -64,3 +64,21 @@ This helps us see the history of commits in each branch showing us an accurate
 picture of how the code became to be. The reason why we represent the merged 
 branch the way we do is so that it would be clear which branches are accessible
 from the newly created master branch.
+
+Q7: What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+The pros are pretty clear. Git will automatically merge the two files saving you
+a lot of time of having to do it manually. In most cases, it also makes a
+difference where exactly a line of code is inserted. Git will make sure the 
+lines appear in the correct order. 
+
+The cons are a little more subte. When Git merges changes automarically, you
+don't really get a chance to see what was changed in the code you are merging
+that you did not change yourself. This can lead to potential problems where you
+merge some changes in and then the code you wrote breaks, because of the changes
+made that were merged in. Since you didn't know the changes were made, you could
+not have knowm that your changes will not work. For example this can happen
+when API changes are made or when a function now takes a different set or
+argument. That is to say that even with automatic merging when there are no 
+conflicts detected, the process is not always 100% smooth and unproblematic.
