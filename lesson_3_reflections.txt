@@ -1,0 +1,7 @@
+Q1: When would you want to create a remote repository rather than keeping all your work local?
+
+Creating a remote repository is great for many reasons. If you have a remore repository, and your computer fails
+you will be able to recover your work. If you want to share your repository with other people, it would be more
+practical to store it on a remote server that is available 24/7 rather than having to keep your computer on all
+the time in case someone wants to clone your repository. Lastly, if you are working on a project from more than
+one computer, it would be easier to keep everything synced in a remote repository.
