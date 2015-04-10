@@ -1,7 +1,31 @@
 Q1: When would you want to create a remote repository rather than keeping all your work local?
 
-Creating a remote repository is great for many reasons. If you have a remore repository, and your computer fails
-you will be able to recover your work. If you want to share your repository with other people, it would be more
-practical to store it on a remote server that is available 24/7 rather than having to keep your computer on all
-the time in case someone wants to clone your repository. Lastly, if you are working on a project from more than
-one computer, it would be easier to keep everything synced in a remote repository.
+Creating a remote repository is great for many reasons. If you have a remore 
+repository, and your computer fails you will be able to recover your work. If
+you want to share your repository with other people, it would be more practical
+to store it on a remote server that is available 24/7 rather than having to keep
+your computer on all the time in case someone wants to clone your repository. 
+Lastly, if you are working on a project from more than one computer, it would
+be easier to keep everything synced in a remote repository.
+
+Q2: Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+A fork is only relevant in the context of GitHub. It gives us an easy way to 
+clone a repository and at the same time achnowledge the main authors of a 
+project. It works similar to a clone, but only when cloning a GitHub repository
+to another GitHub repository. A fork is appropriate when we want to give credit
+to the author of a project for their initial work and when we do not have 
+permission to push to the actual repository.
+
+A clone is similar to a fork, but it is a general "copy" of the repository. A 
+clone can be made from GitHub or another git server to a local computer or from
+one location on a local computer to another location. A clone is appropriate
+when we simply want a local copy of the repository on our computer so we can
+work on it whenever we like.
+
+A branch is part of a repository and not a complete repository (unless the 
+repository has only one branch). It allows us to experiment with changed or
+a new feature without having to worry about breaking our code. A branch is 
+appropriate when we work a new feature or make changes that we are not sure
+how will affect the code in general.
