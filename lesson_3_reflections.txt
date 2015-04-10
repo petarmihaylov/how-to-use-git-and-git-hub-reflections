@@ -29,3 +29,13 @@ repository has only one branch). It allows us to experiment with changed or
 a new feature without having to worry about breaking our code. A branch is 
 appropriate when we work a new feature or make changes that we are not sure
 how will affect the code in general.
+
+Q3: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+This would be usefyl when we want to have the latest changes to a remote branch
+since while we are working on our local copy, someone might be making changes to
+parts of the repository that are relevant to that we are doing. Additionally, 
+having the local copy of the remote branch separate from our own local copy can 
+help us more easily determine the changes that were made and when it comes time
+to merge the chagnes, the process would be easier.
