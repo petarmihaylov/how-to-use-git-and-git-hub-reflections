@@ -39,3 +39,16 @@ parts of the repository that are relevant to that we are doing. Additionally,
 having the local copy of the remote branch separate from our own local copy can 
 help us more easily determine the changes that were made and when it comes time
 to merge the chagnes, the process would be easier.
+
+Q4: How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+The first thing that comes to mind is using something like Dropbox. Each 
+collabor can either have a separate folder in a shared account or a shared
+folder in their own account. In that folder, they will keep their "local copy". 
+Whenever a change is ready to be incorporated, some will manually run a
+differencing tool on each file that was changed and make sure that ther eare no
+conflicts. This would definitely be harder. What would be easier, although not
+helpful, is that you would not have to learn a whole new software package. The
+"benefit" of not learning though is much more costly than the time it would take
+to learn.
