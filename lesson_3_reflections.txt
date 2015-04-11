@@ -52,3 +52,12 @@ conflicts. This would definitely be harder. What would be easier, although not
 helpful, is that you would not have to learn a whole new software package. The
 "benefit" of not learning though is much more costly than the time it would take
 to learn.
+
+Q5: When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+I would say that working in master is OK when fixing minor bugs such as typos.
+For any kind of change that changes the logic of the software, it would be 
+better to use a separate branch for each new feature or change. This way, 
+you colleagues and collaborators will be able to stay up to date with the 
+changes that were made.
